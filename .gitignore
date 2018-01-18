@@ -11,6 +11,7 @@ bin/*
 vendor/*
 web/bundles/*
 web/css/*
+!web/js/datepicker
 web/js/
 web/uploads/*
 web/include/*

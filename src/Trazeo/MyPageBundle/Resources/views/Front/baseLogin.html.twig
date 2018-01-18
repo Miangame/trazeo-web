@@ -40,7 +40,8 @@
     '@TrazeoMyPageBundle/Resources/public/js/wizard.js'
     '@SopinetTemplateSbadmin2Bundle/Resources/public/js/analytics.js'
     '@SopinetTemplateSbadmin2Bundle/Resources/public/js/typeahead.js'
-    '@SopinetTemplateSbadmin2Bundle/Resources/public/js/bootstrap-datepicker.js'
+    'js/datepicker/bootstrap-datepicker.js'
+    'js/datepicker/bootstrap-datepicker.es.js'
     %}
     <script type="text/javascript" src="{{ asset_url }}"></script>
     {% endjavascripts %}
@@ -53,7 +54,7 @@
         $(function() {
             // Datepicker for input type
             $('.inputDate').datepicker({
-                language: 'es',
+                language: '{{ app.request.locale }}',
                 orientation: 'auto top',
                 format: 'dd/mm/yyyy'
             }).on('changeDate', function (ev) {
