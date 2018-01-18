@@ -13,7 +13,7 @@
                     <form method="POST" action="{{ path('executeAction', {'module': module.id}) }}" validate>
                         {% form_theme vars 'TrazeoMyPageBundle:Form:bootstrap.12.html.twig' %}
                         {{ form_widget(vars) }}
-                        <input type="submit" class="btn btn-button btn-primary"/>
+                        <input type="submit" class="btn btn-button btn-primary" value="{{ "contact.submit"|trans }}"/>
                     </form>
                 </div>
             </div>
