@@ -14,6 +14,7 @@ use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\Routing\RequestContext;
 use Swift_Message as Message;
 use Hip\MandrillBundle\Dispatcher;
+use Trazeo\BaseBundle\Entity\UserExtend;
 use Trazeo\BaseBundle\Service\MailerHelper;
 
 class GenerateEmailsCommand extends ContainerAwareCommand
@@ -58,11 +59,11 @@ class GenerateEmailsCommand extends ContainerAwareCommand
         // Usuarios con la configuración requerida
         $output->writeln('<info>Encontrados '.count($users).' usuarios a tratar</info>');
 
-        /** @var User $user */
+        /** @var UserExtend $user */
         foreach ($users as $user) {
             $reNOT = $em->getRepository("SopinetUserNotificationsBundle:Notification");
             try {
-                $codeLang = $user->getUserExtend()->getCity()->getCountry()->getCode();
+                $codeLang = $user->getCity()->getCountry()->getCode();
             } catch (\Exception $e) {
                 $codeLang = null;
             }
