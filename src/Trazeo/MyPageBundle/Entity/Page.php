@@ -88,6 +88,63 @@ class Page
      */
     protected $data_web;
 
+    /**
+     * @ORM\ManyToOne(targetEntity="JJs\Bundle\GeonamesBundle\Entity\City")
+     */
+    protected $city;
+
+    /**
+     * @ORM\ManyToOne(targetEntity="JJs\Bundle\GeonamesBundle\Entity\Country")
+     */
+    protected $country;
+
+    /**
+     * Set city
+     *
+     * @param \JJs\Bundle\GeonamesBundle\Entity\City $city
+     *
+     * @return Page
+     */
+    public function setCity(\JJs\Bundle\GeonamesBundle\Entity\City $city = null)
+    {
+        $this->city = $city;
+
+        return $this;
+    }
+
+    /**
+     * Get city
+     *
+     * @return \JJs\Bundle\GeonamesBundle\Entity\City
+     */
+    public function getCity()
+    {
+        return $this->city;
+    }
+
+    /**
+     * Set country
+     *
+     * @param \JJs\Bundle\GeonamesBundle\Entity\Country $country
+     *
+     * @return Page
+     */
+    public function setCountry(\JJs\Bundle\GeonamesBundle\Entity\Country $country = null)
+    {
+        $this->country = $country;
+
+        return $this;
+    }
+
+    /**
+     * Get country
+     *
+     * @return \JJs\Bundle\GeonamesBundle\Entity\Country
+     */
+    public function getCountry()
+    {
+        return $this->country;
+    }
 
     /**
      * Get id
