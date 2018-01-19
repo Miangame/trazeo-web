@@ -83,11 +83,18 @@ class FrontController extends Controller
     */
    public function landingPageAction($subdomain)
    {
-	   	$em = $this->getDoctrine()->getEntityManager();
+	   $em = $this->getDoctrine()->getEntityManager();
 
        $repositoryPage = $em->getRepository("TrazeoMyPageBundle:Page");
        /** @var Page $page */
        $page = $repositoryPage->findOneBySubdomain($subdomain);
+
+       // Only for English and Spanish, we need optimize it for another countries
+       if ($page->getCountry()) {
+           if ($page->getCountry()->getCode() != "ES") {
+                $this->get('translator')->setLocale("EN");
+           }
+       }
 
        //$this->isGranted("edit", $page);
        $kml=false;
