@@ -56,8 +56,21 @@ class GenerateEmailsCommand extends ContainerAwareCommand
         // Usuarios con la configuración requerida
         $output->writeln('<info>Encontrados '.count($users).' usuarios a tratar</info>');
 
+        /** @var User $user */
         foreach ($users as $user) {
             $reNOT = $em->getRepository("SopinetUserNotificationsBundle:Notification");
+            try {
+                $codeLang = $user->getUserExtend()->getCity()->getCountry()->getCode();
+            } catch (\Exception $e) {
+                $codeLang = null;
+            }
+
+            // Only english and spanish language supported
+            if ($codeLang == "ES") {
+                $this->getContainer()->get('translator')->setLocale("ES");
+            } else {
+                $this->getContainer()->get('translator')->setLocale("EN");
+            }
 
             //Important is now defined as ride.finish and group.invite.user
             if ($time=='important') {
