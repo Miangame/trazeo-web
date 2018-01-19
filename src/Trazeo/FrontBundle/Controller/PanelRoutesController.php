@@ -193,7 +193,8 @@ class PanelRoutesController extends Controller
         	'tutorialmap' => $tutorialmap,
         	'cont'		  => $cont,
             'route'      => $route,
-            'kml'   => $route->getAdmin()->getUser()->getEmail()=="paseandoalcole@greenglobe.es"
+            //'kml'   => $route->getAdmin()->getUser()->getEmail()=="paseandoalcole@greenglobe.es"
+            'kml' => true
             //'delete_form' => $deleteForm->createView(),
         );
     }
