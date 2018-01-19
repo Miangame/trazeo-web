@@ -45,6 +45,8 @@ class GenerateEmailsCommand extends ContainerAwareCommand
         $con->enterScope('request');
         $con->set('request', new Request(), 'request');
 
+        $trans = $this->getContainer()->get('translator');
+
         $em  = $con->get('doctrine')->getManager();
         $reUserValue = $em->getRepository("SopinetUserPreferencesBundle:UserValue");
 
@@ -66,10 +68,10 @@ class GenerateEmailsCommand extends ContainerAwareCommand
             }
 
             // Only english and spanish language supported
-            if ($codeLang == "ES") {
-                $this->getContainer()->get('translator')->setLocale("ES");
+            if ($codeLang == "ES" || $codeLang == null) {
+                $trans->setLocale("ES");
             } else {
-                $this->getContainer()->get('translator')->setLocale("EN");
+                $trans->setLocale("EN");
             }
 
             //Important is now defined as ride.finish and group.invite.user
@@ -95,9 +97,9 @@ class GenerateEmailsCommand extends ContainerAwareCommand
                 if (count($notifications) == 1) {
                     $not  = $con->get('sopinet_user_notification');
                     $stringNot = $not->parseNotification($notifications[0], "title");
-                    $subject=$stringNot;
+                    $subject=$trans->trans($stringNot);
                 } else {
-                    $subject=("Tiene ".count($notifications)." novedades");
+                    $subject=($trans->trans("notification.has")." ".count($notifications)." "."notification.news");
                 }
 
                 /** @var MailerHelper $mailer */
