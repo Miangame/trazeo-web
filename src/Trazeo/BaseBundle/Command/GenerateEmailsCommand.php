@@ -64,10 +64,12 @@ class GenerateEmailsCommand extends ContainerAwareCommand
         foreach ($users as $user) {
             $reNOT = $em->getRepository("SopinetUserNotificationsBundle:Notification");
             try {
-                if ($user->getUser()->getUserExtend()->getCity() != null) {
-                    $codeLang = $user->getUser()->getUserExtend()->getCity()->getCountry()->getCode();
-                } else {
-                    $codeLang = null;
+                if ($user->getUser()->getUserExtend() != null) {
+                    if ($user->getUser()->getUserExtend()->getCity() != null) {
+                        $codeLang = $user->getUser()->getUserExtend()->getCity()->getCountry()->getCode();
+                    } else {
+                        $codeLang = null;
+                    }
                 }
             } catch (\Exception $e) {
                 $codeLang = null;
