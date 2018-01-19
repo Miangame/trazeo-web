@@ -107,7 +107,7 @@ class GenerateEmailsCommand extends ContainerAwareCommand
                     $stringNot = $not->parseNotification($notifications[0], "title");
                     $subject=$trans->trans($stringNot);
                 } else {
-                    $subject=($trans->trans("notification.has")." ".count($notifications)." "."notification.news");
+                    $subject=($trans->trans("notification.has")." ".count($notifications)." ".$trans->trans("notification.news"));
                 }
 
                 /** @var MailerHelper $mailer */
