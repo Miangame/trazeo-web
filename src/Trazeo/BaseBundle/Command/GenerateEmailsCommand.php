@@ -4,6 +4,7 @@ namespace Trazeo\BaseBundle\Command;
 use Sopinet\Bundle\UserNotificationsBundle\Entity\Notification;
 use Sopinet\GCMBundle\Entity\Device;
 use Sopinet\GCMBundle\Model\Msg;
+use Sopinet\UserBundle\Entity\SopinetUserExtend;
 use Symfony\Bundle\FrameworkBundle\Command\ContainerAwareCommand;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputInterface;
@@ -59,11 +60,11 @@ class GenerateEmailsCommand extends ContainerAwareCommand
         // Usuarios con la configuración requerida
         $output->writeln('<info>Encontrados '.count($users).' usuarios a tratar</info>');
 
-        /** @var UserExtend $user */
+        /** @var SopinetUserExtend $user */
         foreach ($users as $user) {
             $reNOT = $em->getRepository("SopinetUserNotificationsBundle:Notification");
             try {
-                $codeLang = $user->getCity()->getCountry()->getCode();
+                $codeLang = $user->getUser()->getUserExtend()->getCity()->getCountry()->getCode();
             } catch (\Exception $e) {
                 $codeLang = null;
             }
