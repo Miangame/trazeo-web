@@ -1,5 +1,2 @@
 form:
     label_page: 'Proyecto'
-notification:
-    has: "Tienes"
-    news: "notificaciones"

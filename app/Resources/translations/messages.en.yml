@@ -1088,3 +1088,6 @@ group_join:
     contact: 'Contact'
     see_you: 'See you on the way!'
     see_you2: 'The team of Trazeo Caminos Escolares'
+notification:
+    has: "You have"
+    news: "notifications"

@@ -77,9 +77,9 @@ class GenerateEmailsCommand extends ContainerAwareCommand
 
             // Only english and spanish language supported
             if ($codeLang == "ES" || $codeLang == null) {
-                $trans->setLocale("ES");
+                $trans->setLocale("es");
             } else {
-                $trans->setLocale("EN");
+                $trans->setLocale("en");
             }
 
             //Important is now defined as ride.finish and group.invite.user
@@ -105,6 +105,7 @@ class GenerateEmailsCommand extends ContainerAwareCommand
                 if (count($notifications) == 1) {
                     $not  = $con->get('sopinet_user_notification');
                     $stringNot = $not->parseNotification($notifications[0], "title");
+                    $output->writeln('<comment>Texto fuente (traducir?): "'.$stringNot.'</comment>"');
                     $subject=$trans->trans($stringNot);
                 } else {
                     $subject=($trans->trans("notification.has")." ".count($notifications)." ".$trans->trans("notification.news"));

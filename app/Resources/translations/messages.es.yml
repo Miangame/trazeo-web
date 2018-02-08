@@ -1096,3 +1096,6 @@ group_join:
     contact: 'Contacto'
     see_you: 'Nos vemos en el camino!'
     see_you2: 'El equipo de Trazeo Caminos Escolares'
+notification:
+    has: "Tienes"
+    news: "notificaciones"
