@@ -6,6 +6,7 @@ then
 	php app/console cache:clear --env=prod
 	chmod -R 777 app/cache
 	chmod -R 777 app/logs
+	chmod -R 777 /smail
 else
 	echo "Error. Sitúese en el directorio raíz de Symfony";
 fi
