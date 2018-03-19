@@ -21,7 +21,7 @@ parameters:
     sopinet_user_facebook_secret: sopinet_user_facebook_secret
     sopinet_user_google_id: sopinet_user_google_id
     sopinet_user_google_secret: sopinet_user_google_secret
-    sopinet_user_sucess: sopinet_user_success
+    sopinet_user_sucess: trazeo.login_success_handler
 
     exchange_code: exchange_code
 
