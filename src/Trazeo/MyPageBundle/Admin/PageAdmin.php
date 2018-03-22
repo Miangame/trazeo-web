@@ -19,7 +19,8 @@ class PageAdmin extends Admin
             ->add('subdomain')
             ->add('userextend', null, array('required' => false))
             ->add('groups')
-            ->add('city')
+            // TODO: Disabled, it not is working, we need activate it
+            // ->add('city')
             ->add('country')
             ->add('data_email')
             ->add('data_facebook')
@@ -36,9 +37,11 @@ class PageAdmin extends Admin
             ->add('subdomain')
             ->add('userextend')
             ->add('groups')
-            ->add('city')
+            // TODO: Disabled, it not is working, we need activate it
+            //->add('city')
             ->add('country')
-            ->add('menus');
+            ->add('menus')
+        ;
     }
 
     protected function configureListFields(ListMapper $listMapper)
@@ -51,7 +54,8 @@ class PageAdmin extends Admin
             ->add('data_phone')
             ->add('groups')
             ->add('country')
-            ->add('menus');
+            ->add('menus')
+        ;
     }
 
     public function postPersist($object)
