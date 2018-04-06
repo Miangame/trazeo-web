@@ -1,7 +1,6 @@
-# We need translate "spedibus"
 Admin:
-    no: 'Disponible para el administrador'
-    yes: 'Eres administrador de este grupo'
+    no: 'Available for the administrator'
+    yes: 'You are an administrator of this group'
 
 'Bad credentials': 'Invalid username or password'
 
