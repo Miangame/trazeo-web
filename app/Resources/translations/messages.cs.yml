@@ -1,0 +1,1092 @@
+Admin:
+    no: 'K dispozici správci'
+    yes: 'Jste správcem této skupiny'
+
+'Bad credentials': 'Neplatné uživatelské jméno či heslo'
+
+Btn:
+    back: 'Vrátit se'
+    edit: 'Upravit'
+    success: 'Uložit'
+
+Catalog:
+    button:
+        back: 'Vrátit se'
+
+    index:
+        description: 'Panel pro správu katalogu. Všechny odměny mohou být upraveny zde.'
+        title: 'Panel pro správu katalogu.'
+
+    new:
+        title: 'Zadejte novou položku do katalogu'
+
+CatalogItem:
+    description: 'Katalog položek'
+
+    help:
+        company: 'Společnost nebo subjekt nabízející odměnu'
+        description: 'Text popisu ceny'
+        link: 'Odkaz na soubor společnosti a nabídky'
+         points: 'Body potřebné k vyplacení výhry'
+        position: 'Zobrazení pozice v katalogu'
+        title: 'Cenový Titulek'
+
+    link: 'Odkaz'
+    points: 'Body'
+    position: 'Pozice'
+    title: 'Titul'
+
+CatalogItemcompany: 'Společnost'
+ChangeVisibility: 'Změnit viditelnost'
+
+Children:
+    data:
+        age: 'Věk'
+        name: 'Jméno'
+        options: 'Možnosti'
+        visibility: 'Viditelnost'
+
+    date: 'Datum narození'
+
+    edit:
+        description: 'Tyto údaje používáme pouze pro lepší služby. Vidíte je pouze Vy, ne ostatní rodiče'
+        title: 'Upravit údaje dítěte'
+
+    empty: 'Dosud jste nezaregistrovali žádné ze svých dětí'
+    gender: 'Pohlaví'
+    gender.boy: 'Chlapec'
+    gender.girl: 'Dívka'
+
+    help:
+        datebirth: 'Birthdate'
+        disjoin: 'Stop being tutor'
+        edit: 'Edit information'
+        gender: 'Gender, Boy/Girl'
+        groups: 'Assign to a group of pedibuses'
+        nick: 'Name of child'
+        scholl: 'School'
+        sex: 'Gender'
+        userextend: 'Tutor'
+        visibility: 'Visibility'
+
+    index:
+        acept: 'Accept'
+        asigned: 'Groups in which you are registered'
+        cancel: 'Cancel'
+        description: 'In this section you can consult all the information regarding your children registered in Trazeo'
+        disjoin: 'Unlink'
+        edit: 'Edit'
+
+        mail:
+            invite: 'Send an invitation to other users to be one of the guardians of this child'
+
+        qr:
+            description: 'The following code is unique and assigned to your child'
+            donwload: 'Download it by clicking on it and print it so that the monitor can record it on the road.'
+            title: 'Identifier code'
+
+        subtitle: 'Children you have registered on the platform'
+        title: 'List of your children'
+        tutors: 'Tutors'
+
+    invited: 'You have an invitation to be a tutor'
+    list: 'List of children'
+    mine: 'My children'
+
+    new:
+        description: 'Here you can register your children in the platform and later assign them to a group of pedibús'
+        register: 'New Child Registration'
+        title: 'Child Registration'
+
+    nick: "Child's Name"
+    register: 'Register my children in Trazeo'
+    scholl: 'School'
+
+    show:
+        description: 'Child Facts'
+        title: 'Child Facts'
+
+    visibility:
+        disabled: 'Disabled'
+        enabled: 'Enabled'
+        private: 'Private'
+        public: 'Public'
+
+City:
+    all: 'Show all'
+
+Confirmation:
+    no: 'No'
+    question: 'Are you sure?'
+    yes: 'Yes'
+
+Create: 'Create'
+Delete: 'Delete'
+
+DeleteAccount:
+    description: 'If you wish to delete your profile now, please contact us by email at hola@trazeo.es and we will process your request.'
+    title: 'Delete Account'
+
+Description: 'The web / mobile application to recover the way to school on foot'
+DisJoin: 'Unlink'
+Email: 'Email'
+España: 'Spain'
+
+Exchange:
+    button:
+        code: 'Redeem your code'
+        exchange: 'Redeem your offert'
+        moreinfo: 'More Information'
+
+    description: 'Redeem your points for rewards'
+
+    help:
+        code: 'Redeem your code'
+
+    title: 'Redeem your points'
+
+Form:
+    profile:
+        pass: 'Password'
+        repeatpass: 'Confirm Password'
+
+Group:
+    new:
+        locality: 'Location'
+
+    school: 'School'
+
+Groups:
+    access:
+        accept: 'Accept their incorporation'
+        deny: 'Deny incorporation'
+        request: 'Has requested to join your group '
+
+    data:
+        activity: 'Activity'
+        chat: 'Wall of the pedibus group'
+        member: 'Member of the group'
+        name: 'Name'
+        options: 'Options'
+        route: 'Route'
+        visibility: 'Visibility'
+
+    edit:
+        description: 'Indicate the type of visibility and assign a route'
+        title: 'Edit group data'
+
+    empty: 'Join one of the available user groups or create a new one'
+
+    help:
+        city: 'Group City'
+        name: 'Fill in the name of the group that will appear in the listings. Try to put an easy-to-find name for people who are looking for it.'
+        name2: '"Private" people who want to join you will send a request to join you will have to approve. Recommended for most groups. "Public" anyone can join simply. "Hidden" will not appear in the listings. Only you and the people you invite will see '
+        route: 'Assign a route to this group'
+        school: 'Educational Center'
+        shool: 'Educational Center'
+    index:
+        description: 'Complete list of all groups of existing and visible pedibuses on the platform'
+        list: 'List of groups of pedibuses created in Trazeo'
+        subtitle: 'Link your user to a group of pedibuses and contact other parents from the wall'
+        title: 'Suggestion of groups of pedibús'
+
+    invite:
+        accept: 'I accept the invitation'
+        deny: 'I decline the invitation'
+        request: 'It is part of the group of parents of school children participating in the Pedibús route'
+
+    list: 'Search for a group'
+    mine: 'My groups of pedibuses'
+    name: 'Pedibuster group name'
+
+    new:
+        description: 'Indicates a name, defines who can access it and assign a route'
+        new: 'New Pedibus Group'
+        title: 'Create new pediboo group'
+
+    newRouteModal:
+        body1: 'Posting the route this group usually follows is not required. However, if the group is public, it will help other nearby users feel interested in joining it. '
+        body2: "You can create and publish your route now, or you can do it at any time from the' My Groups 'screen."
+        body3: 'And do not forget that the more explicit the group name, the easier it is for other users in the area who want to organize with you to join. For example, you can use the name of the school and the starting point. '
+        later: "I'll do it another time"
+        now: 'Post route now'
+        title: 'Publish group path'
+
+    noMember: 'You must be part of the group'
+    noRoute: 'No mapped route'
+    route: Route
+
+    show:
+        description: 'Group info'
+        title: 'Relevant data about the pedibus group'
+
+    visibility: 'Visibility'
+    visibility.hidden: 'Hidden'
+    visibility.private: 'Private'
+    visibility.public: 'Public'
+
+Help:
+    button:
+        createChild: 'Register your children or edit your data. Remember that they have to be linked to a group to appear in the listing of the adult mobile application that accompanies the pedibus. If you register them after joining a group, you will have to manually link them on the wall of the group. '
+        createGroup: 'Create a group if you want to organize a pedibus.'
+        editChild: 'The data will be private. You can only see them yourself. Only the adult who accompanies the group every day can see the name when accessing the list of children involved. '
+        editGroup: 'Fill in all the fields so that your group is easy to find by the rest of the participants. Only you as administrator can modify this group data. '
+        group: 'If you belong to a group of pedibus you can communicate with the other participating families through the wall, invite others to join, and earn points by participating. When you link your children, the accompanying adult can see them in the children list and send you notifications. '
+        groupList: "Search for active groups of pedibus in your city and in your educational center, and join one of them. In the public groups (green) your children and you will be incorporated directly. In the private (red), you will send a request to the manager of the group to approve your incorporation. historical: Here you can see the actions for which you received points"
+        newChild: 'On this screen you have to register your children to link them to your user. Your data is private. You can only see them, and the adult who accompanies the group every day when you access the list of children involved (Only see the name). Remember that in order for your children to appear in this list, besides registering them here, you will have to link them to a group that you belong to. From that moment, every time you participate, you start earning points for walking '
+        newGroup: 'Fill in all the fields so that your group is easy to find by the other participants: Only you as administrator can modify this group data. Fill in the country, municipality and educational center will allow filtering by these data in the list of groups'
+        points: 'Trazeo rewards families who walk. Every time your children participate in the pedibus or you accompany the group you get points that accumulate in your account and you can redeem in our catalog or in the Civiclub.'
+        pointsList: 'From this screen you can see how to get points and how to redeem them in our catalog and Civiclub, know the actions for which you have added them and exchange codes to add points directly.'
+        timeline: 'Messages that you post will reach the rest of the group members if they have been configured. Use it with common sense, it is the space to organize the regular operation of the group and to communicate among the participants. You can also access the route here, link your children if they are not, and invite new members. '
+Home:
+    modal:
+        app:
+            close: 'Continue'
+            explain1: 'Welcome to Trazeo Caminos Escolares. </ Br> The tool consists of a web and a mobile application (available for Android). </ Br> The mobile application only needs to install if you are going to someday be the Adult companion of a group of pedibus. </ Br> You can download it in this link '
+            explain2: '</ br> or at any other time from <a href="www.trazeo.es"> www.trazeo.es </a>. </ Br> Click Continue to continue with the welcome tutorial from The web. </ Br> You will receive an email with instructions to add your first 50 points. </ Br> Ask us if you have any doubts, and walk! '
+            link: 'Download now'
+            title: 'Download the trazeo app'
+
+Join: 'Join this group of pedibuses'
+
+Login:
+    email: 'Email'
+    forgot: 'Forgot password?'
+    new: 'Do not have an account?'
+    password: 'Password'
+    signin: 'Login'
+    title: 'Login'
+    username: 'Email'
+    request: 'Reset password'
+
+Menu:
+    children: 'Children'
+    groups: 'Groups'
+    home: 'Home'
+    routes: 'Routes'
+
+    tooltip:
+        children: 'Children'
+        group: 'Group'
+        home: 'Home'
+        point: 'Points'
+        route: 'Routes'
+
+Navbar:
+    logout: 'Logout'
+    profile: 'Profile'
+    settings: 'Configuration'
+
+No: No
+NoAccess: 'No Access'
+
+Notifications:
+    action:
+        description:
+            child:
+                in: 'Child %0 has been incorporated into the group ride %1'
+
+                invite:
+                    accept: "The user %0 has accepted the invitation to be the child's guardian %1"
+                    deny: "The user %0 Has refused the invitation to be the child's guardian %1"
+                    user: "You have received an invitation to be the child's guardian %0"
+
+                joingroup: 'Child %0 has joined the group %1'
+                out: 'The child %0 has left the group ride %1 and arrived at its destination without incident'
+
+            group:
+                invite:
+                    accept: 'The user %0 has accepted the invitation to join the group %1'
+                    deny: 'El usuario %0 has refused the invitation to join the group %1'
+                    user: 'You have received an invitation of %0 to join the group %1'
+
+                join:
+                    deny: 'Your request has been declined to %0 to join the group %1'
+                    let: 'Your request has been accepted to %0 to join the group %1'
+                    request: 'The user %0 has requested to join the group %1'
+
+            ride:
+                finish: 'The walk for the group %0 it is finished.'
+                start: 'The ride for the group %0 is over.'
+
+            timeline:
+                newFromMonitor: '%0 has written the following message on the group wall %2: %1'
+
+        title:
+            child:
+                in: 'Your child has joined the group'
+
+                invite:
+                    accept: 'A user accepted your invitation'
+                    deny: 'A user refused your invitation'
+                    user: 'Received invitation to be tutor'
+
+                joingroup: 'A child has joined the group'
+                out: 'Your child has left without incident'
+
+            group:
+                invite:
+                    accept: 'A user accepted your invitation'
+                    deny: 'A user rejected your invitation'
+                    user: 'You received an invitation'
+
+                join:
+                    deny: 'Your request was rejected'
+                    let: 'Your request was accepted'
+                    request: 'You have received an application'
+
+            ride:
+                finish: 'A ride is over'
+                start: 'A walk has begun'
+
+            timeline:
+                newFromMonitor: 'There is a new message'
+
+    description: 'You can check and review all the notifications that have been sent to you as a user of the platform'
+    link: 'View notification history'
+    list: "History of all notifications you've received"
+
+    modal:
+        accept: 'Go to notification'
+        close: 'Close'
+        dismiss: 'Close'
+        title: 'You have an important notification:'
+
+    title: 'List of notifications'
+
+Options:
+    delete: 'Delete'
+    edit: 'Edit'
+
+Panel:
+    title: 'Main panel'
+
+Points:
+    action:
+        Child_On_Ride: 'Because your son 0 participated in a walk'
+        Create_Group: 'For creating your first group'
+        Create_User: 'For redeeming the welcome code 0'
+        Distance_Points: 'Because your son 0 has traveled 1m'
+        Manage_Ride: 'To become a companion in 1 walk'
+
+    button:
+        exchange: 'Redeem points'
+        moreinfo: 'More information'
+
+    description: 'In this section you can consult all the information regarding the points you have obtained in Trazeo'
+    exchange: 'Do you want to redeem your points?'
+    explanation: 'Earn points in Trazeo by participating in the pedibus and encouraging others to do so'
+    got: 'you have'
+
+    historical:
+        button: 'Point History'
+        description: 'List of actions that have reported points'
+        distance: 'kilometers with Trazeo, which become'
+        exchange: 'exchangeable'
+        exchange_plural: 'exchangeable'
+        explanation: 'These are the points you have achieved so far'
+        title: 'Point History'
+        walk: 'has walked'
+
+    index:
+        howto: 'How does it work?'
+        remains: 'yet to be redeemed'
+        total: 'totals achieved'
+
+    internet:
+        offerts: 'Internet catalog'
+
+    local:
+        offerts: 'Local Deals Catalog'
+
+    mine: 'My points'
+
+    modal:
+        civi:
+            button: 'Get CIVIS'
+
+            explain:
+                first: '<p>If you are a CiviClub member, the points you accumulate in your Trazeo account are automatically charged to your CiviClub account every Monday. This is very important <b> important that the email address you registered with Trazeo is the same as the one you used for registration at CiviClub. </ B> </ p> <p> Please note that Points that you exchange at CiviClub are not subtracted in Trazeo. We add the two websites independently so that you have twice as many opportunities to see your commitment to walking rewarded.</p>'
+
+            header: '<p>En CiviClub.org, The club of civic people, want more and more people to adopt attitudes that positively impact our environment. And so, if you are a partner, when you do something good you can win Civis to exchange for offers and gifts of leisure and culture in your catalog. </ P> <p> Contributing to more children walking each day on our streets is An action that has a positive impact on the health of the smallest and the environment of your city, so the points you accumulate using Trazeo will also be charged to your account at Civiclub.org. That way you have twice the chance to redeem them.</p>'
+            howto: 'Get CIVIS'
+
+            question:
+                first: 'How does it work? </br>'
+                second: 'Do you want to know more about <a href="http://www.civiclub.org">CiviClub.org</a>?'
+
+        close: 'Close'
+
+        exchange:
+            body: 'We have already received your request to redeem your points in Trazeo for this prize. We will send you an email in the next few hours with detailed instructions for you to enjoy. Thank you for having your children walk with Trazeo! '
+            title: 'You have requested to redeem an award'
+
+        exchangeFail:
+            body: "Gee, you're still missing some points to redeem this prize. If your children walk a few more days, you can do it soon. "
+            title: 'You do not have enough points for this prize.'
+        explain:
+            first: '<p>Each of the actions you perform in Trazeo allows you to add points to your account:</p><ul><li type="circle">- Each day that one of your children walks with Trazeo, you will add 1 point. Be encouraged to do it daily!</li><li type="circle">- Also, for each kilometer that one of your children walks with Trazeo, you will receive 1 point more (with a maximum of 25 points per week).</li><li type="circle">- And if you are the companion or the monitor of a group, each time you guide the walk with the mobile application you will receive 1 point (with a maximum of 50 points per month).</li></ul><p>In addition, when you carry out some actions or when you collaborate with Trazeo, we will send you a code that will allow you to add points directly. Just enter it in the space "Redeem Coupon" that is in the "My points" screen and press the button.</p> <p>And remember, that each of these actions also give you CIVIS in our web friend, Civiclub.org, the civic people club (look conditions <a class="modalchange" data-toggle="modal" data-target="#civiModal">aquí</a>)</p>'
+            second: 'In the catalog of this same page you have at your disposal a list with the prizes and discounts that you can redeem in Trazeo for the points obtained. Choose the one that suits you or your children and click on the "Redeem" button. We will send you information on how to receive your prize. And remember, this list will continue to grow. '
+            third: 'If you need more information, or if you are a company or organization and want to offer prizes and discounts in Trazeo, you can contact us at hola@trazeo.es'
+        header: 'In Trazeo we want to reward your commitment to healthy habits and sustainability, allowing you to add points to your personal account and exchange them for awards and discounts offered by our companies and collaborating organizations.'
+        howto: 'Get points in Trazeo'
+        mail: 'hola@trazeo.es'
+
+        question:
+            first: 'How can you score points in Trazeo?</br>'
+            second: 'How can you redeem your points in Trazeo?</br></br>'
+
+    name: 'points'
+    name_plural: 'points'
+    title: 'My points'
+    total: 'in total'
+
+Random:
+    text_1: "A walking child is a healthy child \ NA walking girl is a healthy girl"
+    text_10: "In the 70's and 80's, 70% of boys and girls aged 7 and 8 went to school alone, today 70% of schoolchildren have never gone to school alone"
+    text_11: 'Today, more than 40% of schoolchildren drive to school with noise, pollution and energy consumption,'
+    text_12: 'Allowing and facilitating the way to school for your children allows you to save more than 60 € / month'
+    text_13: 'Remembering our way to school, is to remember good and fun moments'
+    text_14: 'Participating in the school path avoids the typical inconveniences caused by traffic and parking'
+    text_15: "The school path is the first step for children's autonomy"
+    text_16: 'Just by going to school on foot, our children already do (an average) 30% of the daily exercise they need daily'
+    text_17: 'To encourage the autonomy of our children is to enable them to grow self-confidence'
+    text_18: 'Do you remember how old you started going to school alone?'
+    text_19: 'We are interested in your opinion. Share your ideas, impressions and needs with us at hola@trazeo.es'
+    text_2: 'Letting children grow in autonomy is not inattention, it is an act of love'
+    text_20: 'Can you think of any ideas to improve the pedibus in which your child participates? Share it on the wall of your group '
+    text_21: 'If you think there are things that can be improved along the route of your pedibus, comment and / or request improvements to your City Council'
+    text_22: 'Walking strengthens the heart'
+    text_3: 'Walking in company is making friends'
+    text_4: 'Children go to school to reach higher levels of concentration and attention in class'
+    text_5: 'For many experts, a child is more exposed to the contaminants of a car when it is inside the vehicle than when it is outside it'
+    text_6: 'The air breathed inside a car is more polluted than the air outside'
+    text_7: 'Walking helps us stay fit'
+    text_8: 'Walking instead of taking the car contributes to improving the quality of our air'
+    text_9: 'When walking your child will learn to know his surroundings, he will know his neighborhood and his neighbors'
+
+Register:
+    email: 'Email'
+    emailconfirmation: 'Repeat Email'
+    name: 'Username'
+    pass: Password
+    repeatpass: 'Repeat Paasword'
+
+Ride:
+    current:
+        description: 'You can see in real time the route of this route and consult all your data'
+        title: 'Walk in progress'
+
+    go: 'Go to the walk'
+
+    yes:
+        description:
+            plural: 'The following groups are in progress and you have children pointed at them'
+            singular: 'The next group is in progress and you have children pointed at the'
+
+        title:
+            plural: 'There are walks in progress'
+            singular: 'There is a walk in march'
+
+Route:
+    data:
+        map: 'Map of the route'
+        name: 'Name'
+        options: 'Options'
+
+    description: 'Relevant data of the route'
+
+    edit:
+        description: 'Sets a name and indicates to which country and city it belongs'
+        title: 'Edit route data'
+
+    empty: 'Map a safe ride route in your city to go to school'
+
+    help:
+        country: 'Country to which belongs'
+        description: 'Route description'
+        name: 'Path descriptive name'
+
+    index:
+        description: 'List of routes created by users to define paths to school'
+        near: 'These routes are in your city and could interest you'
+        title: 'Walking routes'
+
+    list: 'List of Routes'
+
+    map:
+        edit: 'Go to the map'
+
+    mine: 'My routes'
+    name: 'Route name'
+
+    new:
+        description: 'Assign a name that gives other users an idea of ​​the area or route'
+        new: 'New Route'
+        title: 'Create new route'
+
+    resume:
+        description: 'Relevant data about the same'
+        title: 'Summary of the walk'
+
+    show:
+        buttons:
+            cancel: 'Cancel Action'
+            end: 'Finish'
+            erase: 'Delete point'
+            pickup: 'Create collection point'
+            pickupErase: 'Delete collection point'
+            save: 'Save'
+            start: 'Start'
+            undo: 'Undo'
+
+        childs: 'Children'
+        create: 'Create New Group'
+        creator: 'Author'
+        description: 'Map and route data'
+        distance: 'Distance'
+        edit: 'Edit route'
+        end: 'Ends at'
+        group: 'Group'
+        groups: 'Groups with this route'
+        map: 'Map of the route'
+        owndescription: 'Description'
+        signed: 'signed on this route'
+        start: 'Starts at'
+        title: 'Route: %name%'
+        unasigned: 'No group with this mapped route'
+
+Settings:
+    index:
+        description: 'Customize your notification notices on the trazeo platform'
+        title: 'Notifications'
+
+Si: 'Yes'
+
+Sponsors:
+    current: 'Sponsors'
+
+Suggestion:
+    access_groups: 'You are not in any group yet! Search now for a group in your Locality and join it. '
+    complete_profile: 'Access your Profile and fill in the City and Name fields'
+    create_route: 'This group has no defined route yet, click here to create the route.'
+    link_child: 'Access the Wall of any of your groups to link your children.'
+    new_child: 'You have not registered any child yet! Click here to register your children in the system. '
+    no_school: "in your child's profile you can fill in the' Educational Center 'to which you belong"
+
+Timeline:
+    child:
+        disjoin: 'Unlink my children from this group'
+        empty: 'No results'
+        join: 'Link my children to this group'
+        title: 'Your children in this group'
+
+    index:
+        description: 'Manage your children in this group, invite other users to join or chat with them'
+        title: 'Group activity'
+
+    invite:
+        description: 'Send notification to other parents so they can join this group'
+        title: 'Invite group'
+
+    parents: 'other members'
+
+    route:
+        empty: 'No mapped route'
+        set: 'Change the path of this group'
+        title: 'Group Route'
+
+    title: 'Group wall'
+
+Trans:
+    alternative: 'alternative translation'
+    description: 'Description'
+    head: 'Trazeo translations'
+    meaning: 'Meaning'
+    notfound: 'No messages'
+
+    save:
+        success: 'The translation has been saved'
+        wrong: 'ERROR. The translation has not been saved '
+
+    search:
+        children: 'Search Children'
+        group: 'Search Groups'
+        routes: 'Search Routes'
+
+    select:
+        option: 'Select Option'
+
+    sources: 'Source / Origin'
+
+    subtitle:
+        exist: 'Existing messages'
+        new: 'New messages'
+
+    table:
+        id: 'Identifier'
+        info: 'Additional information'
+        translation: 'Translation'
+
+    title: 'Messages available for translation (en-US, Spanish - Spain)'
+
+Update: 'Update'
+
+'User account is disabled':
+    '': 'User account disabled' # TODO: ?
+
+User:
+    points: 'Points'
+
+Userextend:
+    help:
+        groups: 'Groups you want to join'
+        mobile: 'No. of mobile, the monitor will have it to call if necessary'
+        nick: 'Username'
+
+    index:
+        description: 'Manage your user data in Trazeo'
+        title: 'User Profile'
+
+    profile:
+        avatar: 'Avatar'
+        edit: 'Edit Profile'
+        location: 'Location'
+        profile: 'Profile data'
+        title: 'User Profile'
+
+change_password:
+    flash:
+        success: 'Password successfully changed'
+
+    submit: 'Change Password'
+
+form:
+    current_password: 'Current Password:'
+    email: 'Email:'
+    email_confirmation: 'Confirm Email'
+    group_name: 'Group name:'
+    label_roles: 'Roles'
+    new_password: 'New password:'
+    new_password_confirmation: 'Repeat password:'
+    password: 'Password:'
+    password_confirmation: 'Repeat password:'
+    username: 'Username:'
+    label_name: 'Name'
+    label_admin: 'Administrador'
+    label_childs: 'Children'
+    label_userextendgroups: 'Father/Mother'
+    label_private_monitor: 'Private monitor'
+    label_monitor_userextendgroups: 'Authorized monitors'
+    label_bymode: 'Group Type'
+    label_distance: 'Distance'
+    label_fix_child_count: 'Indicate how many children have participated'
+    label_group_registered: 'Group to which it belongs'
+    label_created_at: 'Date and time of creation'
+    label_author: 'Author'
+    label_score: 'Likes'
+    label_body: 'Message'
+    label_page: 'Proyect'
+
+group:
+    edit:
+        submit: 'Update Group'
+
+    flash:
+        created: 'The group has been created'
+        deleted: 'The group has been deleted'
+        updated: 'The group has been updated'
+
+    new:
+        locality: 'Location'
+        submit: 'Create Group'
+
+    show:
+        name: 'Group name'
+
+layout:
+    logged_in_as: 'Identified as %username%'
+    login: 'Login'
+    logout: 'Exit'
+    register: 'Register'
+
+preference:
+    civiclub_conexion:
+        description: 'Do you want your points sent to CiviClub?</br></br><span style="font-size:0.75em;">CiviClub.org is a club of civic people where members earn points for a lifestyle that fosters solidarity, healthy habits and sustainability. </br> If you are already a CiviClub member and you want the points you add with Trazeo also become Civis, select Yes in the option below and we will send all your points accumulated in the week to CiviClub every Monday. </br> And if you are not yet a CiviClub user, select the Yes option and register In this link with the same email with which you have registered in Trazeo:<a href="https://www.civiclub.org/es/register/?utm_source=trazeo&utm_campaign=activacion">Sign up CiviClub.org</a>?</span></br></br>'
+        name: 'Conection with CiviClub'
+
+        value:
+            no: 'no'
+            yes: 'yes'
+
+    notification_email:
+        description: 'Check this box if you want to receive email notifications'
+        name: 'Notifications by email'
+
+        value:
+            important: 'Only the important'
+            never: 'None'
+            now: 'All'
+
+profile:
+    edit:
+        submit: 'Update user'
+
+    flash:
+        updated: 'Profile has been updated'
+
+    show:
+        email: 'Email'
+        username: 'Username'
+
+registration:
+    back: 'Back to the original page.'
+    check_email: 'An email has been sent to %email%. It contains an activation link that you must press to activate your account. '
+    confirmed: 'Congratulations %username%, your account is now verified.'
+
+    email:
+        message: "Hello %username%!\n\nTo complete the validation of your account - please visit %confirmationUrl%\n\nSincerely,\nthe Team.\n"
+        subject: 'Bienvenido %username%!'
+
+    flash:
+        user_created: 'User created successfully'
+
+    submit: 'Sign up'
+
+resetting:
+    check_email: 'An email has been sent to %email%. it contains an activation link that you must press to reset your password.'
+
+    email:
+        message: "Hello %username%!\n\nTo reset your password - please visit %confirmationUrl%\n\nSincerely,\nthe Team.\n"
+        subject: 'Restablecer Contraseña'
+
+    flash:
+        success: 'Password successfully changed'
+
+    password_already_requested: 'The password for this user has already been requested within 24 hours.'
+
+    request:
+        invalid_username: 'The user or email address "%username%" does not exist.'
+        submit: 'Reset Password'
+        username: 'Username:'
+
+    reset:
+        submit: 'Change password'
+
+security:
+    login:
+        password: 'Password:'
+        remember_me: 'Remember'
+        submit: 'Login'
+        username: 'Username:'
+
+# Project Admin
+# TODO: We could put it in another file
+list:
+    label_nick: 'Name'
+    label_date_birth: 'Birthdate '
+    label_created_at: 'Fecha'
+    label_scholl: 'School'
+    label_groups: 'Groups'
+    label_action: 'Action'
+    label_userextendchilds: 'Father/Mother'
+    label_number_childs: 'Childs'
+    label_number_users: 'Father/Mother'
+    label_name: 'Name'
+    label_email_parent: 'Email'
+    label_mobile_parent: 'Phone'
+    label_user_username: 'User'
+    label_user_email: 'Email'
+    label_user_name: 'Name'
+    label_mobile: 'Phone'
+    label_childs: 'Childs'
+    label_string_childs_r: 'Children who have participated'
+    label_user_created_at: 'Register Date'
+    label_count_childs_r: 'Number of Children'
+    label_group_object: 'Group to which it belongs'
+    label_id: 'Identificator'
+    label_group_registered: 'Group to which it belongs'
+    label_count_report: 'Reports'
+    label_body: 'Message'
+    label_group: 'Group'
+    label_group_id: 'Id Group'
+    label_thread_id: 'Group'
+    label_author: 'Author'
+    label_score: 'Likes'
+    label_week_not_activity: 'Weeks without Activity'
+    label_desc_medal: 'Description of medal'
+    label_title: 'Title'
+    label_image: 'Image'
+    label_medals: 'Medals'
+    label_pickup: 'Pickup'
+    label_description: 'Description'
+    label_text: 'Text'
+    label_admin_group: 'Group Admin'
+    label_admin_route: 'Route Admin'
+    label_tutorial: 'Tutorial'
+    label_tutorial_map: 'Map Tutorial'
+    label_access: 'Access'
+    label_points: 'Points'
+    label_points_spend: 'Points spent'
+    label_acumulated: 'Acumulated'
+    label_company: 'Company'
+    label_link: 'Link'
+    label_file: 'File'
+    label_modules: 'Modules'
+    label_position: 'Position'
+    label_content: 'Content'
+    label_type: 'Type'
+    label_menu: 'Menu'
+    label_date_register: 'Registration date'
+
+show:
+    label_id: 'Identifier'
+    label_nick: 'Nick'
+    label_userextendchilds: 'Father/Mother'
+    label_date_birth: 'Birthdate'
+    label_visibility: 'Visibility'
+    label_gender: 'Gender'
+    label_groups: 'Groups'
+    label_created_at: 'Date'
+    label_updated_at: 'Last Update'
+    label_name: 'Name'
+    label_admin: 'Administrator'
+    label_childs: 'Childs'
+    label_child: 'Child'
+    label_userextendgroups: 'Father/Mother'
+    label_private_monitor: 'Private monitor'
+    label_monitor_userextendgroups: 'Authorized monitors'
+    label_bymode: 'Group type'
+    label_ride: 'Ride'
+    label_has_ride: 'Has Ride'
+    label_email_parent: 'Email'
+    label_mobile_parent: 'Phone'
+    label_user_created_at: 'Register Date'
+    label_user_username: 'User'
+    label_user_email: 'Email'
+    label_user_name: 'Name'
+    label_mobile: 'Phone'
+    label_city_name: 'City'
+    label_country_name: 'Country'
+    label_group_object: 'Group'
+    label_string_childs_r: 'Children'
+    label_duration: 'Duration'
+    label_distance: 'Distance'
+    label_fix_child_count: 'Participation (This data can be edited)'
+    label_group_registered: 'Group'
+    label_count_report: 'Number of Reports'
+    label_reports: 'Reports'
+    label_body: 'Menssage'
+    label_author: 'Author'
+    label_score: 'Likes'
+    label_selected: 'Selected'
+    label_invite_child: 'Invite child'
+    label_invite_group: 'Invite Group'
+    label_invite_child_sender: 'Sender invitation child'
+    label_invite_group_sender: 'Sender invitation group'
+    label_sender: 'Sender'
+    label_data: 'Data'
+    label_location: 'Location'
+    label_route: 'Route'
+    label_number_users: 'Users'
+    label_private_monitor: 'Private monitor'
+    label_monitor_userextendgroups: 'Authorized Monitors'
+    label_description: 'Description'
+
+
+breadcrumb:
+    link_dashboard: 'Das'
+    link_e_child_list: 'Children List'
+    link_e_group_list: 'Group Listing'
+    link_e_ride_list: 'List of Tours'
+    link_user_extend_list: 'User List'
+    link_comment_list: 'List of Comments'
+
+filter:
+    label_groups: 'Groups'
+    label_created_at: 'Date'
+    label_gender: 'Gender'
+    label_scholl: 'School'
+    label_author: 'Author'
+    label_group_registered: 'Group'
+    label_user_email: 'Email'
+    label_name: 'Name'
+    label_nick: 'Name'
+
+customAdmin:
+    stats:
+         menu:
+             title: 'Statistics'
+         evolution:
+             title: 'Evolution of children involved'
+         registered:
+             title: 'Registered children and families'
+         bar:
+             title: 'Project Statistics'
+         global:
+             title: 'General data'
+             table:
+                  title: 'Summary Data:'
+                  data: 'Data'
+                  value: 'Value'
+                  km: 'Total number of kilometers traveled by children'
+                  km_add: 'km'
+                  walks: 'Total number of walks'
+                  paseos_add: 'walks'
+                  units: 'Total number of Units'
+                  participaciones_add: 'participations'
+                  co2: 'KG. Of CO2 avoided if all those journeys were made by car '
+                  co2_add: 'kg'
+                  fuel liters: 'Liters of fuel consumed avoided'
+                  liters_combustible_add: 'liters'
+                  euros_combustible: 'Fuel saved'
+                  euros_combustible_add: 'euros'
+                  format_time: 'Total time walked by children'
+                  weather_format_add: ''
+
+homePage:
+    index:
+        title1: 'What is Trazeo?'
+        title2: 'Do you want to try it?'
+        subtitle1: 'You can try the <a href="http://trazeo.es">Trazeo</a> web and application, remember that we are in a BETA version.'
+        button1: 'Access to Trazeo'
+        title3: 'Thanks to...'
+    nav:
+        item1: 'HOME'
+        item2: 'CO-FINANCIERS'
+        item3: 'BLOG'
+        item4: 'CROWFUNDING'
+        item5: 'CONTACT'
+    thanks:
+        text1: 'Between all we do street.'
+        text2: 'Necessary, timely and necessary Trazeo and its safe school routes.'
+        text3: 'Step by step; For a clean city of cars and dangers for our children.'
+
+flash_messages:
+    wrong_email: 'The email entered does not correspond to any user'
+    error_general: 'An error occurred during the process'
+    error_invite_tutor: "The user you want to invite is already one of the child's tutors"
+    error_are_tutor: 'You are already tutoring this child'
+    error_are_joined_group: 'You are already in this group'
+    error_already_invited: 'You have already invited this user before'
+    send_invitation: "The user has received your invitation"
+    delete: 'Has been removed'
+    group_removed_join: 'You can not join the group because it has been deleted'
+    accept_tutor: 'You have accepted the invitation to be a tutor'
+    decline_invitation: 'You have declined the invitation'
+    decline_request: 'You have rejected the request'
+    child_register: 'You have successfully registered your child'
+    not_edit_child: "You do not have permission to edit this information"
+    not_remove: "You do not have permission to remove this information"
+    not_see: "You do not have permission to access this information"
+    registry_not_exists: 'The specified record does not exist'
+    create_success: "It has been successfully created"
+    join_success: "You have successfully joined the group"
+    disjoin_success: 'You left the group'
+    hidden_group_join_fail: 'You can only join a hidden group by invitation.'
+    already_requested: 'You have already requested it previously.'
+    request_send: 'Your request has been sent.'
+    user_already_exists: 'The user already exists'
+    not_exists: 'Does not exist or has been deleted'
+    user_not_exists: 'User no longer exists'
+    user_exists: 'User already exists'
+    group_not_exists: 'Group does not exist or has been deleted'
+    group_exists: 'That group already exists'
+    add_success: 'It has been added successfully'
+    remove_success: 'It has been successfully deleted'
+    already_in_group: 'The user is already part of the group'
+    group_admin_join: 'You do not need an invitation to join a group you are an admin'
+    not_access_group: 'You do not have access to this group, please request it before you can participate in the Wall'
+    not_points_needed: 'You do not have the necessary points'
+    accept_conditions: 'You must accept the conditions of use'
+    email_send: 'Your email was successfully sent'
+
+graphic:
+    age: 'Age Chart'
+    age2: 'Age'
+    number_child: 'Number of Children'
+    number_families: 'Number of families'
+    number_participation: 'Number of shares'
+    group_graphic: 'Graph by group'
+    school: 'School'
+    evolution: "Evolution of Children Records"
+    evolution_families: 'Evolution of Family Records'
+    evolution_groups: 'Evolution of participation by groups'
+    evolution_total: 'Evolution of total participation'
+    number_records: 'Number of records'
+    new: 'Generate Graphic'
+    register_child: 'Child Registration Charts'
+    register_families: 'Family Registration Charts'
+    refresh: 'Refresh data'
+    from: 'Date From'
+    until: 'Date Until'
+    date: 'Date'
+    age_from: 'Age From'
+    age_until: 'Age Until'
+    age: 'Age'
+    grouping: 'Grouping of data'
+    for_month: 'Per month'
+    for_week: 'Per week'
+    for_day: 'Per day'
+    group: 'Group'
+
+Request: 'User Redeem Request'
+Request2: 'User Redeem Request %nick% for the offer %title% of the company %company%'
+mail_new_medal: 'You have obtained a new medal in Trazeo!'
+mail_new_medal_desc: 'Enter the Mobile Application Medals section and you will be able to see the new recognition achieved when walking with Trazeo and show it to your child.  Congratulations!'
+list_groups_available: 'List of Available Groups'
+invitation_trazeo: 'He has been invited to the Trazeo system'
+user_manual_nav: 'User Manual'
+home_welcome_mail: 'Welcome to Trazeo'
+compose_module: "Go to Modeller Composer"
+can_move: "You can move items by clicking and releasing them to reorder them."
+edit_module: "Access Edit modules, and you can modify them."
+
+group_register:
+    title: "YOU ARE <b>REGISTERED</b> IN THE GROUP<br>"
+    register: "Register"
+    data: "Your data"
+    children: 'Your children'
+    email: "Enter your email and password"
+    conditions: "terms"
+    use: "of use"
+    profile: "Complete your profile information"
+    register_children: "Register the children who will participate in the group"
+    add_children: "Want to add more kids?"
+    next: "Next"
+    previous: "Previous"
+    finish: "Finish"
+    have_account: "Already have an account? Click here"
+    accept: "I accept the"
+    have_account2: "I already have an account"
+    access_to: "Access to"
+    data_access: "Fill in your login details."
+    not_account: "You do not have an account?"
+    thanks: "Thank you for registering in Trazeo."
+    discharged: "Your children have been discharged in the group"
+    download: "Download the application"
+    tomorrow: "Tomorrow, the monitor will have them listed."
+    recommend: "We recommend you download Trazeo to your mobile phone"
+    recommend2: " to communicate with the rest of the members and the monitor of your group, see where it goes when it is in progress, get notifications when they arrive at school and redeem for points the points you earn for your participation."
+    child_number: "Child number"
+    necessary: "It is necessary to accept the conditions"
+    name: "Name and surname"
+    locale: "Location"
+
+group_join:
+    hello: 'Hello!'
+    user: 'The user'
+    join: 'has joined the group'
+    can: 'and now he can'
+    email: 'The contact email of the user'
+    next: 'for the follow-up and correct discharge management, is as follows'
+    help: 'If you need help, contact us. Many of the doubts you may have at first can be solved directly, and we look forward to helping you, really ;). Write an email to'
+    help2: 'or leave us your phone so that we can call you through the form'
+    help3: 'You can also access the manuals for using the app and the web from'
+    help4: 'or leave us a message on the web'
+    contact: 'Contact'
+    see_you: 'See you on the way!'
+    see_you2: 'The team of Trazeo Caminos Escolares'
+notification:
+    has: "You have"
+    news: "notifications"

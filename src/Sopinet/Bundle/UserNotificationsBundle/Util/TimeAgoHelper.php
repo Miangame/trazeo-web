@@ -24,6 +24,7 @@ class TimeAgoHelper {
     protected function getStrings() {
     	if ($this->lang == "es") return $this->strings_es;
     	else if ($this->lang == "en") return $this->strings_en;
+    	else if ($this->lang == "cs") return $this->strings_en;
     }
  
     protected $datetime;

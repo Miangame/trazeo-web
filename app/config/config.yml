@@ -235,6 +235,7 @@ lunetics_locale:
     allowed_locales:
        - es    
        - en
+       - cs
     guessing_order:
        - query
        - router           
